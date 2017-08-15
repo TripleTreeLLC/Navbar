@@ -1,0 +1,146 @@
+.main {
+  height: 100%;
+  width: 100%;
+}
+
+#centerText {
+  position: fixed;
+  top: 50%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 56px;
+}
+
+#footerSocial {
+  margin-left:10px;
+  height: 45px;
+  width: 45px;
+  padding: 8px;
+}
+
+#footerSocial:hover {
+  color: #fff;
+  text-decoration-color: transparent;
+}
+
+#navText {
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  color: #fff;
+  margin-left: 0%;
+}
+
+#plainATag {
+  color: #fff;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-color: transparent;
+}
+
+#plainATag:hover {
+  color: #fff;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-color: transparent;
+}
+
+.fancyOne
+{
+  background: linear-gradient(90deg, #00E676, #2979FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sidechick {
+  margin-top: 35vh;
+  margin-left: 22px;
+}
+
+.diy1 {
+    width: 22px;
+    height: 4px;
+    background-color: #fff;
+    margin: 5px 0;
+    transition: 0.5s ease;
+}
+
+.diy2 {
+    width: 24px;
+    height: 4px;
+    background-color: #fff;
+    margin: 5px 0;
+    transition: 0.5s ease;
+}
+
+.diy3 {
+    width: 17px;
+    height: 4px;
+    background-color: #fff;
+    margin: 5px 0;
+    transition: 0.5s ease;
+}
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 70px; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #1c1c1c; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+.navFront {
+    height: 100%; /* 100% Full-height */
+    width: 100%; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 0; /* Stay on top */
+    top: 17%;
+    left: 10%;
+    opacity: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
